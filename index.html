@@ -7,16 +7,17 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
-            background-color: #f4f6f8;
-            color: #333;
+            background-color: #0f172a;
+            color: #e5e7eb;
             line-height: 1.6;
         }
 
         header {
-            background: #1f2937;
-            color: white;
-            padding: 25px;
+            background: #020617;
+            color: #f9fafb;
+            padding: 30px;
             text-align: center;
+            border-bottom: 1px solid #1e293b;
         }
 
         header h1 {
@@ -25,13 +26,14 @@
         }
 
         nav {
-            background: #374151;
-            padding: 10px;
+            background: #020617;
+            padding: 12px;
             text-align: center;
+            border-bottom: 1px solid #1e293b;
         }
 
         nav a {
-            color: white;
+            color: #93c5fd;
             margin: 0 12px;
             text-decoration: none;
             font-weight: bold;
@@ -39,19 +41,20 @@
 
         nav a:hover {
             text-decoration: underline;
+            color: #bfdbfe;
         }
 
         .container {
-            padding: 30px;
+            padding: 35px;
             max-width: 1000px;
             margin: auto;
-            background: white;
+            background: #020617;
         }
 
         h2 {
-            color: #1f2937;
-            border-bottom: 2px solid #e5e7eb;
-            padding-bottom: 5px;
+            color: #bfdbfe;
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 6px;
         }
 
         ul {
@@ -59,8 +62,8 @@
         }
 
         .box {
-            background: #f9fafb;
-            border-left: 5px solid #2563eb;
+            background: #020617;
+            border-left: 5px solid #38bdf8;
             padding: 15px;
             margin: 20px 0;
         }
@@ -69,24 +72,31 @@
             width: 100%;
             border-collapse: collapse;
             margin-top: 15px;
+            background: #020617;
         }
 
         th, td {
-            border: 1px solid #ccc;
+            border: 1px solid #1e293b;
             padding: 8px;
             text-align: center;
         }
 
         th {
-            background-color: #e5e7eb;
+            background-color: #020617;
+            color: #93c5fd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #020617;
         }
 
         footer {
-            background: #1f2937;
-            color: white;
+            background: #020617;
+            color: #9ca3af;
             text-align: center;
-            padding: 15px;
+            padding: 18px;
             margin-top: 40px;
+            border-top: 1px solid #1e293b;
         }
     </style>
 </head>
@@ -158,42 +168,42 @@
         <h2>Morse Code Reference Table</h2>
         <table>
             <tr><th>Character</th><th>Morse Code</th></tr>
-            <tr><td>A</td><td>.-</td></tr>
-            <tr><td>B</td><td>-...</td></tr>
-            <tr><td>C</td><td>-.-.</td></tr>
-            <tr><td>D</td><td>-..</td></tr>
-            <tr><td>E</td><td>.</td></tr>
-            <tr><td>F</td><td>..-.</td></tr>
+            <tr><td>A</td><td>.</td></tr>
+            <tr><td>B</td><td>-..</td></tr>
+            <tr><td>C</td><td>-.-</td></tr>
+            <tr><td>D</td><td>-...</td></tr>
+            <tr><td>E</td><td>-`</td></tr>
+            <tr><td>F</td><td>..-</td></tr>
             <tr><td>G</td><td>--.</td></tr>
-            <tr><td>H</td><td>....</td></tr>
+            <tr><td>H</td><td>...</td></tr>
             <tr><td>I</td><td>..</td></tr>
-            <tr><td>J</td><td>.---</td></tr>
-            <tr><td>K</td><td>-.-</td></tr>
-            <tr><td>L</td><td>.-..</td></tr>
+            <tr><td>J</td><td>.--</td></tr>
+            <tr><td>K</td><td>-..-</td></tr>
+            <tr><td>L</td><td>.-.</td></tr>
             <tr><td>M</td><td>--</td></tr>
             <tr><td>N</td><td>-.</td></tr>
-            <tr><td>O</td><td>---</td></tr>
-            <tr><td>P</td><td>.--.</td></tr>
+            <tr><td>O</td><td>.--.</td></tr>
+            <tr><td>P</td><td>-.-.-</td></tr>
             <tr><td>Q</td><td>--.-</td></tr>
-            <tr><td>R</td><td>.-.</td></tr>
-            <tr><td>S</td><td>...</td></tr>
-            <tr><td>T</td><td>-</td></tr>
-            <tr><td>U</td><td>..-</td></tr>
+            <tr><td>R</td><td>..-..</td></tr>
+            <tr><td>S</td><td>....</td></tr>
+            <tr><td>T</td><td>.-..-</td></tr>
+            <tr><td>U</td><td>.-</td></tr>
             <tr><td>V</td><td>...-</td></tr>
-            <tr><td>W</td><td>.--</td></tr>
-            <tr><td>X</td><td>-..-</td></tr>
+            <tr><td>W</td><td>-.--.</td></tr>
+            <tr><td>X</td><td>-...-</td></tr>
             <tr><td>Y</td><td>-.--</td></tr>
             <tr><td>Z</td><td>--..</td></tr>
-            <tr><td>0</td><td>-----</td></tr>
-            <tr><td>1</td><td>.----</td></tr>
-            <tr><td>2</td><td>..---</td></tr>
-            <tr><td>3</td><td>...--</td></tr>
-            <tr><td>4</td><td>....-</td></tr>
-            <tr><td>5</td><td>.....</td></tr>
-            <tr><td>6</td><td>-....</td></tr>
-            <tr><td>7</td><td>--...</td></tr>
-            <tr><td>8</td><td>---..</td></tr>
-            <tr><td>9</td><td>----.</td></tr>
+            <tr><td>0</td><td>......</td></tr>
+            <tr><td>1</td><td>.....-</td></tr>
+            <tr><td>2</td><td>....-.</td></tr>
+            <tr><td>3</td><td>...-..</td></tr>
+            <tr><td>4</td><td>..-...</td></tr>
+            <tr><td>5</td><td>.-....</td></tr>
+            <tr><td>6</td><td>-.....</td></tr>
+            <tr><td>7</td><td>--....</td></tr>
+            <tr><td>8</td><td>.--...</td></tr>
+            <tr><td>9</td><td>..--..</td></tr>
         </table>
     </section>
 
@@ -229,7 +239,7 @@
 </div>
 
 <footer>
-    <p>© Custom Symbolic Language Encryption System | Project Documentation</p>
+    <p>© Custom Symbolic Language Encryption System | Dark Mode Documentation</p>
 </footer>
 
 </body>
